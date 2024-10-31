@@ -112,3 +112,12 @@ buttons.forEach((button) => {
     }
   });
 });
+
+module.exports = {
+  updateResult,
+  addDigit,
+  setOperator,
+  calculate,
+  clearCalculator,
+  setPercentage
+};
